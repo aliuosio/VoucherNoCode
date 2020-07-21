@@ -7,4 +7,4 @@ Displays checkbox to enable the submission of a code after ordering.
 ## Install
 * composer require aliuosio/vouchernocode
 * bin/magento se:up
-* bin/magento c:c;
+* bin/magento c:c
