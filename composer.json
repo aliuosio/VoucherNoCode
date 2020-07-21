@@ -1,5 +1,5 @@
 {
-    "name": "AliuOsio/module-vouchernocode",
+    "name": "aliuosio/vouchernocode",
     "description": "Displays checkbox to enable the submission of a code after ordering. Can be seen on Cart page and on the second step of checkout",
     "type": "magento2-module",
     "license": "proprietary",
