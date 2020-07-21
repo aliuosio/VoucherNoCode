@@ -1,0 +1,38 @@
+<?php
+/**
+ * @var \AliuOsio\VoucherNoCode\Block\Nocode $block
+ */
+?>
+<div id="nocode-box" class="content" data-role="content">
+    <div>
+        <div class="field">
+            <span class="control">
+                <input type="checkbox"
+                       class="input-box"
+                       id="nocode"
+                       name="nocode"
+                       <?php echo $block->isChecked(); ?>
+                       data-mage-init='{"AliuOsio_VoucherNoCode/js/nocode":{}}'/>
+            </span>
+            <label class="nocode-label" for="nocode">
+                <?php echo $block->escapeHtml(__('I would like to send in a voucher without a number')); ?>
+            </label>
+        </div>
+    </div>
+</div>
+<style>
+    #nocode-box {
+        border-top: 1px solid #f0ede8;
+        padding: 15px 10px;
+        margin-bottom: 10px;
+    }
+
+    #co-payment-form #nocode-box {
+        border: none;
+    }
+
+    #co-payment-form #nocode-box label {
+        color: #333333;
+    }
+
+</style>

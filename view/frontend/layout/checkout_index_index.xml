@@ -1,0 +1,17 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <script src="AliuOsio_VoucherNoCode::js/move_nobox.js" />
+    </head>
+    <body>
+        <referenceContainer name="content">
+            <block ifconfig="AliuOsio_vouchernocode/general/enabled"
+                   before="checkout.cart.coupon"
+                   class="AliuOsio\VoucherNoCode\Block\Nocode"
+                   name="AliuOsio_vouchernocode"
+                   as="AliuOsio_vouchernocode"
+                   template="AliuOsio_VoucherNoCode::checkout/cart/vouchernocode.phtml"
+                   cacheable="false"/>
+        </referenceContainer>
+    </body>
+</page>

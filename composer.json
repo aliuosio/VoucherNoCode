@@ -1,0 +1,18 @@
+{
+    "name": "AliuOsio/module-vouchernocode",
+    "description": "Displays checkbox to enable the submission of a code after ordering. Can be seen on Cart page and on the second step of checkout",
+    "type": "magento2-module",
+    "license": "proprietary",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "AliuOsio\\VoucherNoCode\\": "/"
+        }
+    },
+    "minimum-stability": "dev",
+    "config": {
+        "discard-changes": true
+    }
+}

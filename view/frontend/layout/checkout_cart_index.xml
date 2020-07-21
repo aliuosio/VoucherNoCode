@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="cart.summary">
+            <block ifconfig="AliuOsio_vouchernocode/general/enabled"
+                   before="checkout.cart.coupon"
+                   class="AliuOsio\VoucherNoCode\Block\Nocode"
+                   name="AliuOsio_vouchernocode"
+                   as="AliuOsio_vouchernocode"
+                   template="AliuOsio_VoucherNoCode::checkout/cart/vouchernocode.phtml"
+                   cacheable="false" />
+        </referenceContainer>
+    </body>
+</page>
