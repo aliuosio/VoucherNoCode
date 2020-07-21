@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="aliuosio" translate="label" sortOrder="200">
+        <tab id="aliuosio" translate="label" sortOrder="0">
             <label>AliuOsio</label>
         </tab>
         <section id="AliuOsio_vouchernocode" translate="label" type="text" sortOrder="180" showInDefault="1" showInWebsite="1" showInStore="1">
